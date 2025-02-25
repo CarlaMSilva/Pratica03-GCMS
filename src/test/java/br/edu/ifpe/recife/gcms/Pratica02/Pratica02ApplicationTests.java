@@ -37,5 +37,10 @@ class Pratica02ApplicationTests {
 		this.mockMvc.perform(get("/pessoa")).andDo(print()).andExpect(status().isOk())
 		.andExpect(content().string(containsString("Hello, Carla Pessoa!")));
 	}
-
+	
+	@Test
+	public void shouldReturnDefaultMessageHotfix() throws Exception {
+		this.mockMvc.perform(get("/hotfix")).andDo(print()).andExpect(status().isOk())
+		.andExpect(content().string(containsString("Hello, isto é um hotfix!")));
+	}
 }
