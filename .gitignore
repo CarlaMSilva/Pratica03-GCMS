@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 28fe069e0d0c29116742b7ca7ce0d973e93fd4fb
+=======
+>>>>>>> ddb4d27 (Pratica 2 parte Hello world)
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+build/
+bin/
+.gradle/
+*.class
+*.lock
+=======
+>>>>>>> 28fe069e0d0c29116742b7ca7ce0d973e93fd4fb
+=======
+>>>>>>> ddb4d27 (Pratica 2 parte Hello world)
