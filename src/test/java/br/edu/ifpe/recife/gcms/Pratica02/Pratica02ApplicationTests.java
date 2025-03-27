@@ -28,7 +28,11 @@ class Pratica02ApplicationTests {
 	
 	@Test
 	public void shouldReturnDefaultMessageFulano() throws Exception {
+<<<<<<< HEAD
 		this.mockMvc.perform(get("/carla")).andDo(print()).andExpect(status().isOk())
+=======
+		this.mockMvc.perform(get("/fulano")).andDo(print()).andExpect(status().isOk())
+>>>>>>> a185e54 (resolvendo bugs)
 		.andExpect(content().string(containsString("Hello, Carla Maria!")));
 	}
 	
@@ -37,10 +41,14 @@ class Pratica02ApplicationTests {
 		this.mockMvc.perform(get("/pessoa")).andDo(print()).andExpect(status().isOk())
 		.andExpect(content().string(containsString("Hello, Carla Pessoa!")));
 	}
+<<<<<<< HEAD
 	
 	@Test
 	public void shouldReturnDefaultMessageHotfix() throws Exception {
 		this.mockMvc.perform(get("/hotfix")).andDo(print()).andExpect(status().isOk())
 		.andExpect(content().string(containsString("Hello, isto é um hotfix!")));
 	}
+=======
+
+>>>>>>> a185e54 (resolvendo bugs)
 }
