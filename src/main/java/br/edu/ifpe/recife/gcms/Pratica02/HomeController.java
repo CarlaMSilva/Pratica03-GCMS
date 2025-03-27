@@ -51,5 +51,10 @@ public class HomeController {
 	public @ResponseBody String greetingPessoa() {
 		return "Hello, Carla Pessoa!";
 	}
+	
+	@RequestMapping("/hotfix")
+	public @ResponseBody String greetingHotfix() {
+		return "Mudança na branch para hotfix!";
+	}
 
 }
